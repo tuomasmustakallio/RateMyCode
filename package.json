@@ -1,0 +1,24 @@
+{
+  "name": "RateMyCode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "cd server && npm install",
+    "install" : "cd client && npm install",
+    "dev:server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuomasmustakallio/RateMyCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuomasmustakallio/RateMyCode/issues"
+  },
+  "homepage": "https://github.com/tuomasmustakallio/RateMyCode#readme"
+}
