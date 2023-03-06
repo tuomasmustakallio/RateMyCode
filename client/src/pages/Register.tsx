@@ -48,13 +48,13 @@ const Register = ({ setUser }: Props) => {
         direction="column"
         paddingBottom={10}
       >
-        <Grid item alignItems={"center"}>
+        <Grid item alignItems={"center"} paddingY={1}>
           <Typography color={"black"} fontSize={28} fontWeight={600}>
             {t("register")}
           </Typography>
         </Grid>
         <Box component="form" onSubmit={submitHandler}>
-          <Grid item>
+          <Grid item paddingY={1}>
             <TextField
               label={t("email")}
               name="email"
@@ -66,7 +66,7 @@ const Register = ({ setUser }: Props) => {
               required
             />
           </Grid>
-          <Grid item>
+          <Grid item paddingY={1}>
             <TextField
               label={t("password")}
               name="password"
@@ -78,7 +78,7 @@ const Register = ({ setUser }: Props) => {
               required
             />
           </Grid>
-          <Grid item>
+          <Grid item paddingY={1}>
             <Button color={"secondary"} variant="contained" type="submit">
               <Typography fontWeight={"600"} textTransform={"none"}>
                 {t("register")}

@@ -1,0 +1,19 @@
+{
+    "login": "Kirjaudu sisään",
+    "register": "Rekisteröidy",
+    "logout": "Kirjaudu ulos",
+    "fi": "suomi",
+    "en": "englanti",
+    "addPost": "Lisää uusi postaus",
+    "title": "Otsikko",
+    "content": "Sisältö",
+    "by": "Kirjoittaja",
+    "votes": "Äänet",
+    "comments": "Kommenttia",
+    "loading": "Ladataan...",
+    "email": "Sähköposti",
+    "password": "Salasana",
+    "add-comment": "Lisää kommentti",
+    "show": "Näytä lisää",
+    "404": "404: Tätä sivua ei löytynyt"
+}

@@ -64,7 +64,7 @@ const Home = () => {
                   dangerouslySetInnerHTML={{ __html: marked(post.content) }}
                 />
               </Paper>
-              <Typography color="primary">{`${t("by")} ${
+              <Typography color="primary">{`${t("by")}: ${
                 post.author
               }`}</Typography>
               <Typography color="primary">{`${t("votes")}: ${
@@ -81,7 +81,7 @@ const Home = () => {
                 }}
               >
                 <Typography fontWeight={"600"} textTransform={"none"}>
-                  {t("Show more")}
+                  {t("show")}
                 </Typography>
               </Button>
             </Card>

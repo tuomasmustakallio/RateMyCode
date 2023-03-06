@@ -7,7 +7,6 @@ import Header from "./components/Header";
 import { createTheme, ThemeProvider } from "@mui/material";
 import { useState } from "react";
 import AddPost from "./pages/AddPost";
-import { t } from "i18next";
 import { useTranslation } from "react-i18next";
 
 // Theme for the app

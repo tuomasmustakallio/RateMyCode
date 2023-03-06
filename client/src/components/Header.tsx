@@ -52,13 +52,22 @@ const Header = ({ setUser }: Props) => {
       <AppBar position="static" color="primary">
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}>
-            <Button component={RouterLink} to="/" color={"inherit"}>
+            <Button
+              component={RouterLink}
+              to="/"
+              color={"inherit"}
+              aria-label="home"
+            >
               <Logo />
             </Button>
           </Box>
           {/*Add post button only visible when logged in*/}
           {localStorage.getItem("token") && (
-            <IconButton component={RouterLink} to="/addpost">
+            <IconButton
+              component={RouterLink}
+              to="/addpost"
+              aria-label="add post"
+            >
               <AddCircleIcon color={"secondary"} />
             </IconButton>
           )}
