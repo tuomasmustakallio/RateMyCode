@@ -20,4 +20,6 @@ These commands will start the server side in port 5000 and the client side on po
 
 Note that the server side uses mongodb for storing user data and code snippets so you have to have it installed and runnning.
 For more detailed information please read the `documentation.docx`-file
+
+
 ![image](https://user-images.githubusercontent.com/77295731/222996766-85af734a-f8e2-48fb-bd0f-eb74115f0c06.png)
