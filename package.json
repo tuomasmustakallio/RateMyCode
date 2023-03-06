@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "cd server && npm install",
-    "install" : "cd client && npm install",
+    "install": "cd client && npm install",
     "dev:server": "cd server && npm start",
     "client": "cd client && npm start",
-    "server": "cd server && npm start:prod"
+    "server": "cd server && npm start:prod",
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/tuomasmustakallio/RateMyCode/issues"
   },
-  "homepage": "https://github.com/tuomasmustakallio/RateMyCode#readme"
+  "homepage": "https://github.com/tuomasmustakallio/RateMyCode#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
